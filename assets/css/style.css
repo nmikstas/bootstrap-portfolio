@@ -45,11 +45,11 @@ p
     border-top: 2px solid #cccccc;
 }
 
-.h-text
+.navbar-brand
 {
     font-family: Georgia, Times, serif;
-    background-color: #4aaaa5;
     color: #ffffff !important;
+    background-color: #4aaaa5;
     font-weight: bold;
 }
 
@@ -64,7 +64,6 @@ p
     font-size: 22px;
     color: #ffffff;
     width: 100%;
-
     text-align: center;
 }
 
@@ -76,44 +75,63 @@ p
     text-align: center;
 }
 
+.portfolio-img:hover
+{
+    box-shadow: 0 0 0 .2rem #aef0ec;
+}
+
+.card
+{
+    border: 0px;
+}
+
 /******************************************** Contact ********************************************/
 
-.contact_content
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus 
 {
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: #777777;
-    font-size: 18px;
-    line-height: 25px;
-    min-height: 370px;
-    padding-bottom: 40px;
-}
-
-.text_box
-{
-    width: 890px;
-    border: 1px solid #cccccc;
-    height: 30px;
-    color: #777777;
-    padding-left: 10px;
-}
-
-.text_area
-{
-    width: 890px;
-    border: 1px solid #cccccc;
-    height: 90px;
-    color: #777777;
-    padding-left: 10px;
-}
-
-.submit_button
-{
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    width: 120px;
-    height: 40px;
-    font-size: 18px;
-    color: #ffffff;
     background-color: #4aaaa5;
-    border: 0;
-    margin-bottom: 30px;
+    border-color: #4aaaa5;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:not(:disabled):not(.disabled).active,
+.show>.btn-primary.dropdown-toggle
+{
+    color: #212529;
+    background-color: #aef0ec;
+    border-color: #4aaaa5;
+}
+
+.btn-primary:focus,
+.btn-primary.focus {
+    box-shadow: 0 0 0 .2rem #aef0ec;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 .2rem #aef0ec;
+}
+
+.form-control:focus,
+.form-control.focus
+{
+    box-shadow: 0 0 0 .2rem #aef0ec;
+}
+
+.form-control:not(:disabled):not(.disabled):active:focus,
+.form-control:not(:disabled):not(.disabled).active:focus,
+.show>.form-control.dropdown-toggle:focus
+{
+    box-shadow: 0 0 0 .2rem #aef0ec;
+}
+
+.input-group-text
+{
+    background-color: #4aaaa5;
+    color: #ffffff;
 }
