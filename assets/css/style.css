@@ -1,0 +1,119 @@
+/***************************************** Main elements *****************************************/
+
+body, html
+{
+    height: 100%;
+}
+
+h1
+{
+    font-family: Georgia, Times, serif;
+    color: #4aaaa5;
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 3px solid #dddddd;
+}
+
+p
+{
+    line-height: 1.5;
+    font-size: 18px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    margin-bottom: 30px;
+}
+
+/************************************** Common Page Content **************************************/
+
+#page-content
+{
+    background-image: url("../images/mosaic.png");
+    flex: 1 0 auto;
+}
+
+#sticky-footer
+{
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+    flex-shrink: none;
+}
+
+.border-2
+{
+    border-top: 2px solid #cccccc;
+}
+
+.h-text
+{
+    font-family: Georgia, Times, serif;
+    background-color: #4aaaa5;
+    color: #ffffff !important;
+    font-weight: bold;
+}
+
+/******************************************* Portfolio *******************************************/
+
+.portfolio-caption
+{
+    position: absolute;
+    bottom: 15px;
+    font-family: Georgia, Times, serif;
+    background-color: #4aaaa5;
+    font-size: 22px;
+    color: #ffffff;
+    width: 100%;
+
+    text-align: center;
+}
+
+.portfolio-img
+{
+    max-height: 250px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+/******************************************** Contact ********************************************/
+
+.contact_content
+{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    font-size: 18px;
+    line-height: 25px;
+    min-height: 370px;
+    padding-bottom: 40px;
+}
+
+.text_box
+{
+    width: 890px;
+    border: 1px solid #cccccc;
+    height: 30px;
+    color: #777777;
+    padding-left: 10px;
+}
+
+.text_area
+{
+    width: 890px;
+    border: 1px solid #cccccc;
+    height: 90px;
+    color: #777777;
+    padding-left: 10px;
+}
+
+.submit_button
+{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    width: 120px;
+    height: 40px;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    border: 0;
+    margin-bottom: 30px;
+}
